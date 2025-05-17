@@ -271,5 +271,6 @@
         }
     }
     }
-  ]
+  ],
+  "manifest": "https://github.com/Semant-0/foundry-vtt-semant-compendium/blob/main/module.json"
  }
