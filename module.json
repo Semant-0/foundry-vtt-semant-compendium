@@ -1,0 +1,275 @@
+{   
+   "id": "SemantCompendium",   
+   "title": "Semant Compendium",   
+   "description": "Custom stuff by me - Semant",
+   "version": "1.0.0",
+   "compatibility": {"minimum": "11", "verified": "12"},
+   "packFolders": [
+    {
+      "name": "🧙‍♂️🐲⚔️🍺 My•Compendium•DnD14",
+      "sorting": "m",
+      "color": "#5b21b6",
+      "folders": [
+        {
+          "name": "Игроку",
+          "sorting": "m",
+          "color": "#0F2C22",
+          "folders": [
+            {
+              "name": "Классы",
+              "sorting": "m",
+              "color": "#184737",
+              "packs": [
+                "classes",
+                "classfeatures",
+                "subclasses"
+              ],
+              "folders": []
+            },
+            {
+              "name": "Расы",
+              "sorting": "m",
+              "color": "#21634C",
+              "packs": [
+                "races"
+              ],
+              "folders": []
+            },
+            {
+              "name": "Происхождения",
+              "sorting": "m",
+              "color": "#2A7F61",
+              "packs": [
+                "backgrounds"
+              ],
+              "folders": []
+            },
+            {
+              "name": "Заклинания",
+              "sorting": "m",
+              "color": "#329B77",
+              "packs": [
+                "spells"
+              ],
+              "folders": []
+            }
+          ],
+          "packs": []
+        },
+        {
+          "name": "Мастеру",
+          "sorting": "m",
+          "color": "#3F2116",
+          "folders": [
+            {
+              "name": "Чудовища",
+              "sorting": "m",
+              "color": "#5B2F1F",
+              "packs": [
+                "monsters"
+              ],
+              "folders": []
+            },
+            {
+              "name": "Предметы и Товары",
+              "sorting": "m",
+              "color": "#924A31",
+              "packs": [
+                "items",
+                "goods"
+              ],
+              "folders": []
+            }
+          ],
+          "packs": []
+        }
+      ],
+      "packs": []
+    }
+  ],
+  
+  "packs": [
+    {
+      "name": "backgrounds",
+      "label": "# Происхождения",
+      "path": "packs/backgrounds",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "banner": "https://raw.githubusercontent.com/laaruk/images/main/pic/Banner_back.webp",
+      "flags": {
+        "dnd5e": {
+            "types": [
+                "background",
+                "feat"
+            ]
+        }
+    }
+    },
+    {
+      "name": "classes",
+      "label": "# Классы",
+      "path": "packs/classes",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "banner": "https://raw.githubusercontent.com/laaruk/images/main/pic/Banner_classes.webp",
+      "flags": {
+        "dnd5e": {
+            "types": [
+                "class"
+            ]
+        }
+    }
+    },
+    {
+      "name": "subclasses",
+      "label": "# Подклассы",
+      "path": "packs/subclasses",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "banner": "https://raw.githubusercontent.com/laaruk/images/main/pic/Banner_subclasses.webp",
+      "flags": {
+        "dnd5e": {
+            "types": [
+                "subclass"
+            ]
+        }
+    }
+    },
+    {
+      "name": "classfeatures",
+      "label": "# Особенности",
+      "path": "packs/classfeatures",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "banner": "https://raw.githubusercontent.com/laaruk/images/main/pic/Banner_features.webp",
+      "flags": {
+        "dnd5e": {
+            "types": [
+                "feat"
+            ]
+        }
+    }
+    },
+    {
+      "name": "races",
+      "label": "# Расы",
+      "path": "packs/races",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "banner": "https://raw.githubusercontent.com/laaruk/images/main/pic/Banner_races.webp",
+      "flags": {
+        "dnd5e": {
+            "types": [
+                "race",
+                "feat"
+            ]
+        }
+    }
+    },
+    {
+      "name": "spells",
+      "label": "# Заклинания",
+      "path": "packs/spells",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "banner": "https://raw.githubusercontent.com/laaruk/images/main/pic/Banner_spell.webp",
+      "flags": {
+        "dnd5e": {
+            "types": [
+                "spell"
+            ]
+        }
+    }
+    },
+    {
+      "name": "monsters",
+      "label": "# Чудовища",
+      "path": "packs/monsters",
+      "type": "Actor",
+      "system": "dnd5e",
+      "ownership": {
+                "PLAYER": "NONE",
+                "TRUSTED": "NONE",
+                "ASSISTANT": "OWNER"
+      },
+      "banner": "https://raw.githubusercontent.com/laaruk/images/main/pic/Banner_monsters.webp",
+      "flags": {
+        "dnd5e": {
+            "types": [
+                "npc"
+            ]
+        }
+    }
+    },
+    {
+      "name": "items",
+      "label": "# Предметы",
+      "path": "packs/items",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "banner": "https://raw.githubusercontent.com/laaruk/images/main/pic/Banner_item.webp",
+      "flags": {
+        "dnd5e": {
+            "types": [
+                "weapon",
+                "equipment",
+                "consumable",
+                "tool",
+                "loot",
+                "container"
+            ]
+        }
+    }
+    },
+    {
+      "name": "goods",
+      "label": "# Товары",
+      "path": "packs/goods",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "banner": "https://raw.githubusercontent.com/laaruk/images/main/pic/Banner_goods.webp",
+      "flags": {
+        "dnd5e": {
+            "types": [
+                "consumable",
+                "tool",
+                "loot",
+                "container"
+            ]
+        }
+    }
+    }
+  ]
+ }
